@@ -8,7 +8,7 @@ import retrofit2.http.POST
 
 interface PushDeerApi {
     companion object {
-        val baseUrl = "https://push.hraulein.com"
+        val baseUrl = "https://api2.pushdeer.com"
     }
 
     @FormUrlEncoded
