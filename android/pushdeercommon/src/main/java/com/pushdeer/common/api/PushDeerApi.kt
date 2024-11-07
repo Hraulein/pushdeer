@@ -11,7 +11,7 @@ import retrofit2.http.POST
 
 interface PushDeerApi {
     companion object {
-        private const val baseUrl = "https://push.hraulein.com"
+        private const val baseUrl = "https://api2.pushdeer.com"
 
         fun create(): PushDeerApi {
             return Retrofit.Builder()
